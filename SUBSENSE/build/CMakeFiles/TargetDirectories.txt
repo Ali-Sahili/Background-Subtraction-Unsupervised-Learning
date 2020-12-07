@@ -1,0 +1,3 @@
+/home/ali/Desktop/subsense-master/SUBSENSE/build/CMakeFiles/rebuild_cache.dir
+/home/ali/Desktop/subsense-master/SUBSENSE/build/CMakeFiles/edit_cache.dir
+/home/ali/Desktop/subsense-master/SUBSENSE/build/CMakeFiles/Subsense.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -Ofast  -shared -Wl,-soname,libSubsense.so -o libSubsense.so CMakeFiles/Subsense.dir/Subsense/API.cpp.o CMakeFiles/Subsense.dir/Subsense/BackgroundSubtractorLBSP.cpp.o CMakeFiles/Subsense.dir/Subsense/BackgroundSubtractorSuBSENSE.cpp.o CMakeFiles/Subsense.dir/Subsense/LBSP.cpp.o -lopencv_core -lopencv_video -lopencv_features2d -lopencv_imgproc 
