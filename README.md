@@ -33,31 +33,34 @@ some useful functions for plotting losses and results from pytorch librairies
 #### 5. train.py training file
 
 ### requirements
-• python3
-• pytorch
-• torchvision
-• numpy
-• matplotlib
+- python3
+- pytorch
+- torchvision
+- numpy
+- matplotlib
+
 In case of using the similarity loss, we must install its library: pytorch ssim. To install this library, put into your terminal:
+```
 git clone https://github.com/Po-Hsun-Su/pytorch-ssim
 python3 setup.py install
+```
 
 ## Usage
 To generate your own model, put the following one in your terminal and choose your desired architecture: python3 main.py
 You can change the parameters of the model and the paths of the input and the output data in the Param.py file.
 In this project, several architecture and methods are implemented based mainly on the previous ones:
-• Convolutional Auto-encoder (AE)
-• Variational Auto-Encoder (VAE)
-• Adverserial Auto-Encoder (AAE)
-• Couple of two auto-encoders (CAE)
-• Combination between optical flow and RGB image at input or with a binary mask obtained by a simple BG method.
-• Deep convolutional GAN with a modified loss function (DCGAN)
-• Denoising Auto-Encoder (DAE)
-• Patch-level Auto-Encoder
-• Patch-level Auto-Encoder with attention modules
-• one encoder with several decoders at different encoder’s parts
-• multi-scale inputs (rgb image HxW, H/2xW/2, H/4xW/4)
-• Two encoders: one is for RGB images and the second is for their optical flow map and One decoder to decode the fused information at the latent space.
+- Convolutional Auto-encoder (AE)
+- Variational Auto-Encoder (VAE)
+- Adverserial Auto-Encoder (AAE)
+- Couple of two auto-encoders (CAE)
+- Combination between optical flow and RGB image at input or with a binary mask obtained by a simple BG method.
+- Deep convolutional GAN with a modified loss function (DCGAN)
+- Denoising Auto-Encoder (DAE)
+- Patch-level Auto-Encoder
+- Patch-level Auto-Encoder with attention modules
+- one encoder with several decoders at different encoder’s parts
+- multi-scale inputs (rgb image HxW, H/2xW/2, H/4xW/4)
+- Two encoders: one is for RGB images and the second is for their optical flow map and One decoder to decode the fused information at the latent space.
 
 We can switch between all these models by changing their corresponding parameters in the Param.py file.
 Also, two background initialization methods are presented, the first is simple and based on an average filter along the batch size while the second used a convolutional layer with average and max pooling layers to achieve the same idea. Their models are written in the background initialzation.py file.
