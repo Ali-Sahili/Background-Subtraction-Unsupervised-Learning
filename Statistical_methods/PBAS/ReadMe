@@ -1,0 +1,47 @@
+# The Pixel-Based Adaptive Segmenter
+
+### Requirements:
+* opencv-3.0
+* python-3.5
+* numpy
+
+
+### Algorithm steps:			
+ 1- Read a Video
+ 2- Apply gaussian Filter
+ 3- Split each frame into 3 channels
+ 4- Initilize the model with zeros or using a simple background substraction algorithm
+ 5- Excute algorithm for each channel in parallel
+ 6- Apply bitwise_or between 3 outputs or bitwise_and between 3 outputs
+ 7- repeat until end of this video
+
+
+## Architecture of my project:
+- PBAS
+    |
+    |-- PBAS-C++
+    |     |
+    |     |-- FeatureTracker.h
+    |     |-- FeatureTracker.cpp
+    |     |-- PBAS.h
+    |     |-- PBAS.cpp
+    |     |-- main.cpp
+    |
+    |-- PBAS-Python
+    |     |
+    |     |-- PBAS.py
+    |
+
+
+## Testing
+to run the code in c++, put into your terminal:
+
+g++ -ggdb main.cpp PBAS.cpp PixelBasedAdaptiveSegmenter.cpp -o main `pkg-config --cflags --libs opencv`
+
+to run the code in python put into your terminal:
+
+python3 PBAS.py
+
+
+
+

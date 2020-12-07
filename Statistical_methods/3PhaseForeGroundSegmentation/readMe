@@ -1,0 +1,35 @@
+  
+  Algorithm:
+  ----------	
+  Foreground Segmentation using Adaptive 3 Phase Background Model
+
+  Requirements:
+ --------------
+  Linux OS and opencv 2.4.9  
+
+  Steps:
+  --------
+
+1. Copy the object-code (3PBMCode.o) in your directory
+2. Put a video file (.avi or .mp4 type) in the same directory
+3. Open a terminal in the same directory 
+   to run the object-code by typing
+
+  ./3PBMCode.o video.avi 
+
+   where
+   video.avi   : input video file
+
+A folder will be create in the current directory
+named "3pbmRESULT" and all the binary images
+will be load there.
+
+Note: If you get a 'permission denied' error, change the 
+permission of 3PBMCode.o by typing 
+
+chmod 777 3PBMCode.o 
+
+in the terminal (current directory).
+
+
+For any queries contact : Sujoy Madhab Roy <sujoyroy_r@isical.ac.in> 

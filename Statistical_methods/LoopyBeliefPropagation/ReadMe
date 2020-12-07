@@ -1,0 +1,9 @@
+
+First, put into your terminal:
+    sudo python3 setup.py install
+then, we can use the pyugm codes into your main code.
+
+change the input image path, output image path and some 
+of parameters according to your histogram and then put 
+into your terminal:
+    python3 LPB.py
