@@ -2,8 +2,8 @@
 Background Subtraction for complex scenes such as intersections from surveillance cameras
 
 <p float="center">
-  <img src="images/0_in.jpg" width="256" hspace="20"/>
-  <img src="images/15000_bg.jpg" width="256" /> 
+  <img src="images/0_in.jpg" width="425" hspace="20"/>
+  <img src="images/15000_bg.jpg" width="425" /> 
 </p>
 
 
