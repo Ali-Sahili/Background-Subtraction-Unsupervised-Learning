@@ -68,5 +68,5 @@ In this project, several architecture and methods are implemented based mainly o
 We can switch between all these models by changing their corresponding parameters in the Param.py file.
 Also, two background initialization methods are presented, the first is simple and based on an average filter along the batch size while the second used a convolutional layer with average and max pooling layers to achieve the same idea. Their models are written in the background initialzation.py file.
 
-## Our Test
+## Test
 In the last few years, deep learning based generative models have gained more and more interest due to (and implying) some amazing improvements in the field. Relying on huge amount of data, well-designed networks architectures and smart training techniques, deep generative models have shown an incredible ability to produce highly realistic pieces of content of various kind, such as images, texts and sounds. Among these deep generative models, two major families stand out and deserve a special attention: Generative Adversarial Networks (GANs) and Auto-encoders (AEs). As a consequence, we focus mainly, in this project, on these two families with some extensions. A brief explanation of all constructed models and their architectures with their results are presented below.
