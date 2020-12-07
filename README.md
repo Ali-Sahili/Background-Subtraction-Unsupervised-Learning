@@ -6,6 +6,15 @@ Background Subtraction for complex scenes such as intersections from surveillanc
   <img src="images/15000_bg.jpg" width="425" /> 
 </p>
 
+### Table of Content
+
+- [Introduction](#Introduction)
+- [Setup](#setup)
+- [Project’s parts](#Project’s parts)
+  - [DCGANs](#DCGANs)
+  - [AutoEncoders](#AutoEncoders)
+- [Organization](#Organization)
+- [Logging](#logging)
 
 ## Introduction
 In the last few years, deep learning based generative models have gained more and more interest due to (and implying) some amazing improvements in the field. Relying on huge amount of data, well-designed networks architectures and smart training techniques, deep generative models have shown an incredible ability to produce highly realistic pieces of content of various kind, such as images, texts and sounds. Among these deep generative models, two major families stand out and deserve a special attention: Generative Adversarial Networks (GANs) and Autoencoders (AEs).
