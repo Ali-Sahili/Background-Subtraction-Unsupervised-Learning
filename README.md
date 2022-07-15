@@ -1,5 +1,5 @@
 # Background-Subtraction-Unsupervised-Learning
-Background Subtraction for complex scenes such as intersections from surveillance cameras
+<!-- Background Subtraction for complex scenes such as intersections from surveillance cameras -->
 
 <p align="center">
     <a href="#"><img alt="Python 3.7" src="https://img.shields.io/badge/python-3.7-b0071e.svg?style=plastic"></a>
