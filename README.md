@@ -2,14 +2,14 @@
 Background Subtraction for complex scenes such as intersections from surveillance cameras
 
 <p align="center">
-  <img src="images/0_in.jpg" width="370" hspace="20"/>
-  <img src="images/15000_bg.jpg" width="370" /> 
-</p>
-
-<p align="center">
     <a href="#"><img alt="Python 3.7" src="https://img.shields.io/badge/python-3.7-b0071e.svg?style=plastic"></a>
     <a href="#"><img alt="PyTorch 1.8" src="https://img.shields.io/badge/pytorch-1.8-%239e008e.svg?style=plastic"></a>
     <a href="#"><img alt="cuDNN 7.3.1" src="https://img.shields.io/badge/cuda-10.0-2545e6.svg?style=plastic"></a>
+</p>
+
+<p align="center">
+  <img src="images/0_in.jpg" width="370" hspace="20"/>
+  <img src="images/15000_bg.jpg" width="370" /> 
 </p>
 
 ### Table of Content
