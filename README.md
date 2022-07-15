@@ -6,6 +6,12 @@ Background Subtraction for complex scenes such as intersections from surveillanc
   <img src="images/15000_bg.jpg" width="370" /> 
 </p>
 
+<!-- 
+![Python 3.7](https://img.shields.io/badge/python-3.7-b0071e.svg?style=plastic)
+![PyTorch 1.8](https://img.shields.io/badge/pytorch-1.8-%239e008e.svg?style=plastic)
+![cuDNN 7.3.1](https://img.shields.io/badge/cuda-10.0-2545e6.svg?style=plastic)
+--> 
+
 ### Table of Content
 
 - [Introduction](#Introduction)
